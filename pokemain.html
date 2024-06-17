@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="../pokeapi/static/css/pokestyle.css">
+<script src="./static/js/pokescript.js" defer></script>
+<title>Title</title>
+</head>
+<body class="container-fluid">
+    
+    <main class="container d-flex flex-column align-items-center">
+        
+        <form onsubmit="handleSubmit(event)" class="row border shadow w-75 p-5 g-3 mt-5 hidden justify-content-center">
+        <div class="form-floating col-12">
+            <input type="text" class="form-control" id="search" name="search" placeholder="Pokemon name">
+            <label for="search" class="ps-3">Pokemon</label>
+        </div>
+        <button type="submit" class="button col-3">Search</button>
+        </form>
+
+        <div class="row row-cols-1 justify-content-center my-5 w-100 g-3 logos" id="show-display">
+        
+        </div>
+
+    </main>
+
+    
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
